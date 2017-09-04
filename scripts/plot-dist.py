@@ -54,7 +54,7 @@ var layout = {
     width: 900,
     height: 900,
     xaxis: {title: 'Coverage', domain: [0, 1]},
-    yaxis: {title: 'Proportion of bases at coverage', domain: [0, 1]},
+    yaxis: {title: 'Proportion of bases with coverage or greater', domain: [0, 1]},
     legend: {
         x: 0.1,
         y: 0.1
